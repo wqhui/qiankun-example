@@ -1,0 +1,32 @@
+{
+  "name": "qiankun-example",
+  "version": "0.0.1",
+  "description": "a qiankun example, power by react project with webpack  and vue project with vite",
+  "keywords": [
+    "qiankun",
+    "react",
+    "vue",
+    "webpack",
+    "vite"
+  ],
+  "main": "-",
+  "scripts": {
+    "install:main": "cd main-app && yarn",
+    "install:vue": "cd vite-vue-app && yarn",
+    "install:react": "cd webpack-react-app && yarn",
+    "install": "run-s install:*",
+    "dev:main": "cd main-app && yarn dev",
+    "dev:vue": "cd vite-vue-app && yarn dev",
+    "dev:react": "cd webpack-react-app && yarn dev",
+    "dev": "run-p dev:*",
+    "preview:main": "cd main-app && yarn preview",
+    "preview:vue": "cd vite-vue-app && yarn preview",
+    "preview:react": "cd webpack-react-app && yarn preview",  
+    "preview": "run-p preview:*"
+  },
+  "author": "wqhui",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

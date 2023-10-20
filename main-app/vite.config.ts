@@ -9,4 +9,10 @@ export default defineConfig({
   server: {
     port: SERVER_PORT
   },
+  preview: {
+    port: SERVER_PORT,
+    headers: {
+      'Access-Control-Allow-Origin': '*', // 主应用获取子应用时跨域响应头
+    },
+  },
 })

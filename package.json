@@ -19,10 +19,13 @@
     "dev:vue": "cd vite-vue-app && yarn dev",
     "dev:react": "cd webpack-react-app && yarn dev",
     "dev": "run-p dev:*",
-    "preview:main": "cd main-app && yarn preview",
+    "build:vue": "cd vite-vue-app && yarn build",
+    "build:react": "cd webpack-react-app && yarn build", 
+    "build:main": "cd main-app && yarn build",
     "preview:vue": "cd vite-vue-app && yarn preview",
-    "preview:react": "cd webpack-react-app && yarn preview",  
-    "preview": "run-p preview:*"
+    "preview:react": "cd webpack-react-app && yarn preview", 
+    "preview:main": "cd main-app && yarn preview", 
+    "preview": "run-s build:* && run-p preview:*"
   },
   "author": "wqhui",
   "license": "ISC",

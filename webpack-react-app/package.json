@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack server --config config/webpack.dev.js",
     "build": "webpack --config config/webpack.prod.js ",
-    "preview": "webpack server --config config/webpack.preview.js"
+    "preview": "node preview.js"
   },
   "author": "",
   "license": "ISC",

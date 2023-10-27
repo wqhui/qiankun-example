@@ -1,3 +1,9 @@
+## ✨ 说明
+一个简单的 [qiankun](https://github.com/umijs/qiankun/) 最小可运行Demo，功能包含父子项目之间、子项目之间数据传输。
+- 主应用使用 `Vite4 + React18`
+- 子应用一使用`Webpack 5 + React 18`
+- 子应用二使用`Vite 4 + Vue 3`。
+- `Vite`兼容使用 [vite-plugin-legacy-qiankun](https://github.com/lishaobos/vite-plugin-legacy-qiankun)。
 
 
 ## 📖 使用

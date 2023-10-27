@@ -25,7 +25,8 @@
     "preview:vue": "cd vite-vue-app && yarn preview",
     "preview:react": "cd webpack-react-app && yarn preview", 
     "preview:main": "cd main-app && yarn preview", 
-    "preview": "run-s build:* && run-p preview:*"
+    "preview": "run-s build:* && run-p preview:*",
+    "server": "run-p preview:*"
   },
   "author": "wqhui",
   "license": "ISC",

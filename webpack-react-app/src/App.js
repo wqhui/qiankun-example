@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
-let a
-
 function App({ onGlobalStateChange, setGlobalState }) {
   const [count, setCount] = useState(0)
   const [mainCount] = useMainAppState(onGlobalStateChange)
